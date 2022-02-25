@@ -1,0 +1,600 @@
+
+
+.body {
+    color: #000;
+    font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.body {
+  -webkit-font-smoothing: antialiased;
+}
+
+.body, div, p, ul, ol, li, dl, dt, dd, table, th, td, img, figure, h1, h2, h3, h4, h5, h6, form, select {
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 767px) {
+ .HeaderContainer {
+    max-width: 100%;
+    margin: 0 20px;
+    margin-top: 0px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+ }
+}
+
+.HeaderLogo {
+    transition: opacity 0.2s;
+    transition-property: opacity;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+@media screen and (min-width: 768px) {
+.HeaderLogo {
+    transition: opacity 0.2s;
+    transition-property: opacity;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+ }
+}
+
+
+
+
+.Header {
+  width: 100%;
+  posision: absolute;
+}
+
+.Header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%
+}
+
+*, *::before, *::after {
+  word-break: break-all;
+   webkit box sizing: border box;
+   moz box sizing: border box;
+  box-sizing: border-box;
+}
+
+.header {
+  display: block;
+}
+
+.HeaderContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 36px 0 36px;
+   margin-top: 0px;
+   margin-right: 36px;
+   margin-bottom:  0px;
+   margin-left:  36px;
+  max-width: 100%;
+  position: relative;
+}
+
+
+
+.HeaderLogo_image--pc {
+  display: block;
+  height: 20px;
+  width: auto;
+}
+
+.img {
+  border: 0;
+   border-top-color: initial;
+   border-top-style: initial;
+   border-top-width: 0px;
+   border-right-color: initial;
+   border-right-style: initial;
+   border-right-width: 0px;
+   border-bottom-color: initial;
+   border-bottom-style: initial;
+   border-bottom-width: 0px;
+   border-left-color: initial;
+   border-left-style: initial;
+   border-left-width: 0px;
+   border-image-source: initial;
+   border-image-slice: initial;
+   border-image-width: initial;
+   border-image-outset: initial;
+   border-image-repeat: initial;
+  vertical-align: middle;
+}
+
+.HeaderLogo_image--sp {
+  display: none;
+  height: 16px;
+  width: auto;
+}
+
+.HeaderContainer>*:last-child {
+  display: inline-flex;
+}
+
+.HeaderNavHamburger {
+  display: none;
+}
+
+.HeaderNavList {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ul, .ol {
+  list-style: none;
+   list-style-position: initial;
+   list-style-image: initial;
+   list-style-type: none;
+}
+
+.HeaderNavListItem {
+  transition: opacity 0.2s;
+   transition-property: opacity;
+   transition-duration: 0.2s;
+   transition-timing-function: ease;
+   transition-delay: 0s;
+}
+
+.HeaderNavListItem {
+  margin-right: 45px;
+}
+
+.HeaderNavListItem_link {
+  display: block;
+}
+
+.HeaderNavListItem_link>span:first-child {
+  font-family: 'Lato', sans-serif;
+}
+
+.HeaderNavListItem_link>span {
+  display: block;
+  font-weight: 700;
+  text-align: center;
+}
+
+.HeaderNavListItem_link>span:last-child {
+  font-size: 10px;
+}
+
+.HeaderNavListItem:last-of-type {
+  margin-right: 0; 
+}
+
+.HeaderNavListItem_button {
+  transition: opacity 0.2s;
+   transition-property: opacity;
+   transition-duration: 0.2s;
+   transition-timing-function: ease;
+   transition-delay: 0s;
+}
+
+.HeaderNavListItem_button {
+  align-items: center;
+  background-color: #F79124;
+  border: none;
+  border-top-color: initial;
+   border-top-style: none;
+   border-top-width: initial;
+   border-right-color: initial;
+   border-right-style: none;
+   border-right-width: initial;
+   border-bottom-color: initial;
+   border-bottom-style: none;
+   border-bottom-width: initial;
+   border-left-color: initial;
+   border-left-style: none;
+   border-left-width: initial;
+   border-image-source: initial;
+   border-image-slice: initial;
+   border-image-width: initial;
+   border-image-outset: initial;
+   border-image-repeat: initial;
+  border-radius: 38px;
+   border-top-left-radius: 38px;
+   border-top-right-radius: 38px;
+   border-bottom-right-radius: 38px;
+   border-bottom-left-radius: 38px;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  font-weight: 700;
+  height: 64px;
+  justify-content: center;
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+  font-size: 12px;
+  height: 40px;
+  padding: 0 20px;
+   padding-top: 0px;
+   padding-right: 20px;
+   padding-bottom: 0px;
+   padding-left: 20px;
+}
+
+.main {
+  display: block;
+}
+
+.FirstView {
+  background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero.jpg);
+  background-size: cover;
+  background-position: center;
+   background-position-x: center;
+   background-position-y: center;
+  padding-top: 100px;
+  padding-bottom: 28px;
+}
+
+.section {
+  display: block;
+}
+
+.FirstView_main-image--sp {
+  display: none;
+}
+
+.FirstView_container {
+    max-width: 1140px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.FirstViewContent {
+  margin-bottom: 70px
+  width: fit-content;
+}
+
+.FirstViewContent_title {
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 54px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.FirstViewContent_images {
+  margin-bottom: 25px;
+}
+.FirstViewContent_images img {
+  margin-right: 8px;
+}
+
+.FirstViewContent_images img nth-of-type(2) {
+  width: 40%;
+}
+
+.FirstViewContent_buttons {
+  display: flex;
+}
+
+
+.FirstViewContent_buttons a:first-of-type {
+  margin-right: 15px;
+  width: 306px;
+}
+
+
+.FirstViewContent_buttons a {
+    transition: opacity 0.2s;
+}
+
+
+.FirstViewContent_buttons a {
+  transition: opacity 0.2s;
+    transition-property: opacity;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.FirstViewContent_buttons a {
+    align-items: center;
+    background-color: #F79214;
+    border: none;
+    border-radius: 38px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 700;
+    height: 64px;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    height: 64px;
+}
+
+.FirstViewContent_buttons a:last-of-type {
+    background-color: #fff;
+    border: 1px solid #E0E0E0;
+    color: #000;
+    width: 176px;
+}
+
+.FirstViewCaption {
+    color: #A2A2A4;
+    font-size: 12px;
+}
+
+.AboutWrrapper {
+  padding: 110px 0;
+   padding-top: 45px;
+   padding-right: 0px;
+   
+   padding-left: 0px;
+  background-color: #F79124;
+  padding: 45px 0;
+   padding-top: 45px;
+   padding-right: 0px;
+   padding-bottom: 45px;
+   padding-left: 0px;
+}
+
+.About {
+    max-width: 1140px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.About_title {
+  align items: center;
+  display: flex;
+  flex-directoin: column;
+  margin-bottom: 60px;
+  width: 100%
+  align-items: flex-start;
+  margin-bottom: 0;
+  width: 53%;
+}
+
+.About_title h2 {
+  font-size: 40px;
+  letter-spacing: 1px;
+  width: 100%;
+}
+
+.About_title h2 .About_title p {
+  color: #fff;
+  text-align: left;
+}
+
+.About_title h2 {
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 74px;
+}
+
+.About_title h2 span {
+  font-family: 'Lato', sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.About_title br {
+  display: none;
+}
+
+.About_title p {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  margin-top: 15px;
+}
+
+.About_button {
+  width: 250px;
+}
+
+
+
+.About_button a {
+    transition: opacity 0.2s;
+}
+
+.About_button a {
+  align-items: center;
+  background-color: #F79214;
+  border: none;
+   border-top-color: initial;
+   border-top-style: none;
+   border-top-width: initial;
+   border-right-color: initial;
+   border-right-style: none;
+   border-right-width: initial;
+   border-bottom-color: initial;
+   border-bottom-style: none;
+   border-bottom-width: initial;
+   border-left-color: initial;
+   border-left-style: none;
+   border-left-width: initial;
+   border-image-source: initial;
+   border-image-slice: initial;
+   border-image-width: initial;
+   border-image-outset: initial;
+   border-image-repeat: initial;
+  border-radius: 38px;
+   border-top-left-radius: 38px;
+   border-top-right-radius: 38px;
+   border-bottom-right-radius: 38px;
+   border-bottom-left-radius: 38px;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  font-weight: 700;
+  height: 64px;
+  justify-content: center;
+  text-decoration: none;
+   text-decoration-line: none;
+   text-decoration-thickness: initial;
+   text-decoration-style: initial;
+   text-decoration-color: initial;
+  text-align: center;
+  width: 100%;
+  color: #F79214;
+  background-color: #fff;
+}
+
+.About_button a span:first-child {
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.About_button a span:last-child {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+
+a.HeaderNavListItem_link {
+}
+
+.About_title {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+    width: 100%;
+    align-items: flex-start;
+    margin-bottom: 0;
+    width: 53%;
+}
+
+.About_title h2 {
+    font-size: 40px;
+    letter-spacing: 1px;
+    width: 100%;
+}
+
+.About_title h2 {
+    font-size: 40px;
+    letter-spacing: 1px;
+    width: 100%;
+}
+
+.About_title p {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-top: 15px;
+}
+
+.About_title h2, .About_title p {
+    color: #fff;
+    text-align: left;
+}
+
+.FirstViewContent_title {
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 54px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+
+.body {
+    color: #000;
+    font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.FirstViewCaption a {
+    color: #A2A2A4;
+}
+
+img {
+    border: 0;
+    border-top-color: initial;
+    border-top-style: initial;
+    border-top-width: 0px;
+    border-right-color: initial;
+    border-right-style: initial;
+    border-right-width: 0px;
+    border-bottom-color: initial;
+    border-bottom-style: initial;
+    border-bottom-width: 0px;
+    border-left-color: initial;
+    border-left-style: initial;
+    border-left-width: 0px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    vertical-align: middle;
+}
+
+@media screen and (min-width: 768px) {
+.HeaderNavListItem_button {
+    transition: opacity 0.2s;
+    transition-property: opacity;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+}
+
+.HeaderNavListItem_button:hover {
+    opacity: 0.5;
+}
+.FirstViewContent_buttons a:first-of-type:hover {
+    opacity: 0.5;
+}
+
+.About_button:hover {
+    opacity: 0.75;
+}
